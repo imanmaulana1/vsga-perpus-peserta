@@ -16,32 +16,32 @@ Proses pengerjaan proyek ini dibagi menjadi [Proyek 4](#proyek-4), [Proyek 5](#p
 
 # Proyek 4
 
-## Task #1
+<!-- ## Task #1
 - Menggunakan session login
-- Tampilkan nama yang disimpan pada session
+- Tampilkan nama yang disimpan pada session -->
 
-## Task #2
+<!-- ## Task #2
 - Menggunakan `password_hash()` dan `password_verify()` pada proses login
-- Menyesuaikan struktur field password pada table admin (length: 60 digit)
+- Menyesuaikan struktur field password pada table admin (length: 60 digit) -->
 
-## Task #3
+<!-- ## Task #3
 - Memindahkan source code bagian header ke file `layout/header.php`
-- Lakukan include `layout/header.php` pada file `index.php`
+- Lakukan include `layout/header.php` pada file `index.php` -->
 
-## Task #4
+<!-- ## Task #4
 - Memindahkan source code bagian sidebar ke file `layout/sidebar-menu.php`
-- Lakukan include `layout/sidebar-menu.php` pada file `index.php`
+- Lakukan include `layout/sidebar-menu.php` pada file `index.php` -->
 
-## Task #5
+<!-- ## Task #5
 - Memindahkan source code bagian footer ke file `layout/footer.php`
-- Lakukan include `layout/footer.php` pada file `index.php`
+- Lakukan include `layout/footer.php` pada file `index.php` -->
 
-## Task #6
+<!-- ## Task #6
 - Buatlah file `404.php` dengan copy source code dari `beranda.php`
 	- Pada bagian `div.page-title`, ubah menjadi: `<h3>Error 404</h3>`
 	- Pada bagian `div.page-content`, ubah menjadi:
 - "Halaman Tidak Ditemukan!" dengan Tag Heading Lv4
-- "Ups! Halaman yang Anda cari tidak ditemukan. Silahkan gunakan menu navigasi disamping kiri." dengan Tag Paragraph
+- "Ups! Halaman yang Anda cari tidak ditemukan. Silahkan gunakan menu navigasi disamping kiri." dengan Tag Paragraph -->
 
 ## Task #7
 - Create database sesuai model yang disediakan
@@ -83,7 +83,7 @@ Proses pengerjaan proyek ini dibagi menjadi [Proyek 4](#proyek-4), [Proyek 5](#p
 - Pastikan status buku yang dipinjam berubah (`Tersedia` -> `Dipinjam`)
 - Tambahkan data minimal 2 data
 
-## Task #13
+<!-- ## Task #13
 - Tambahkan folder `helpers` dengan tingkat hirarki `L1`
 - Buat file `helper_umum.php`
 - Buat fungsi dengan nama `_d()` disertai 1 parameter/ argumen `$str`
@@ -93,31 +93,31 @@ Proses pengerjaan proyek ini dibagi menjadi [Proyek 4](#proyek-4), [Proyek 5](#p
 	var_dump($str);
 	echo '</pre>';
 ```
-- Fungsi `_d()` ditujukan untuk memudahkan proses dump/identifikasi nilai dari suatu variable
+- Fungsi `_d()` ditujukan untuk memudahkan proses dump/identifikasi nilai dari suatu variable -->
 
-## Task #14
+<!-- ## Task #14
 - Menggunakan variable konfigurasi (`config/konfigurasi-umum.php`) yang telah didefinisikan:
 	- Judul Situs: `$_SITE_TITLE`
 	- Deskripsi Alamat: `$_SITE_DESC_ADDRESS`
-	- Deskripsi Telepon: `$_SITE_DESC_PHONE`
+	- Deskripsi Telepon: `$_SITE_DESC_PHONE` 
 	- Info Situs: `$_SITE_INFO`
 	- Credit Situs: `$_SITE_CREDIT`
-	- Path Aplikasi: `$_PATH_APP`
+	- Path Aplikasi: `$_PATH_APP` 
 	- Path Gambar: `$_PATH_IMAGE`
 	- Query Limit: `$_QUERY_LIMIT`
-- Silahkan cari dan gunakan secara mandiri, dimana saja variable konfigurasi ini perlu digunakan!
+- Silahkan cari dan gunakan secara mandiri, dimana saja variable konfigurasi ini perlu digunakan! -->
 
-## Task #15
+<!-- ## Task #15
 - Tambahkan include `koneksi-db.php` hanya pada satu file saja, yaitu `index.php`
 - Letakkan diposisi atas pada block code php
 - Lalu hapus semua `koneksi-db.php` yang ada pada setiap file yang diakses melalui `index.php`
-- Dengan begitu cukup melakukan satu kali include `koneksi-db.php`
+- Dengan begitu cukup melakukan satu kali include `koneksi-db.php` -->
 
-## Task #16
+<!-- ## Task #16
 - Tambahkan class `.active` untuk setiap menu yang dipilih/aktif pada menu sidebar
 - Perhatikan pada file `style.css` terdapat class `nav ul li a.active` yang sudah didefinisikan
 - Gunakan JS untuk memeriksa halaman yang sedang aktif dan gunakan `class .active` pada menu
-- Tuliskan code JS pada file `app.js`
+- Tuliskan code JS pada file `app.js` -->
 
 ## Task #17
 - CRUD Peminjaman
@@ -143,16 +143,16 @@ Proses pengerjaan proyek ini dibagi menjadi [Proyek 4](#proyek-4), [Proyek 5](#p
 
 ## Task #19
 - Buatlah procedure `pagination()` pada file `helper_umum.php`
-- Terdapat 4 parameter untuk procedure tersebut, yaitu: `$row`, `$menu`, `$menu`, `$limit`
+- Terdapat 4 parameter untuk procedure tersebut, yaitu: `$row`, `$menu`, `$num`, `$limit`
 - Gunakan procedure tersebut pada setiap halaman yang menampilkan data dalam bentuk tabel, yaitu anggota, kategori, penulis, penerbit, buku, peminjaman & pengembalian.
 
-## Task #20
+<!-- ## Task #20
 - Buatkan file terpisah untuk `layout/container.php`
 - Sehingga pada file `index.php` hanya melakukan include `layout/container.php`
-- File `layout/container.php` berisikan source code untuk memproses request `$_GET['p']` yang telah ada pada file `index.php`
+- File `layout/container.php` berisikan source code untuk memproses request `$_GET['p']` yang telah ada pada file `index.php` -->
 
-## Task #21
-- Pada bagian `layout/footer.php` menampilkan tahun 2021. Gunakan function native pada PHP sehingga tahun yang ditampilkan menjadi dinamis dengan nilai tahun aktual saat ini.
+<!-- ## Task #21
+- Pada bagian `layout/footer.php` menampilkan tahun 2021. Gunakan function native pada PHP sehingga tahun yang ditampilkan menjadi dinamis dengan nilai tahun aktual saat ini. -->
 
 # Proyek 6
 

@@ -6,8 +6,7 @@ include './config/konfigurasi-umum.php';
 include './helpers/helper_umum.php';
 
 if (isset($_SESSION['id_admin'])) {
-    // Jika sudah login, arahkan ke halaman beranda
-    header("Location: index.php"); // Perbaiki URL dengan lokasi yang sesuai
+    header("Location: index.php"); 
     exit();
 }
 
