@@ -5,9 +5,9 @@ include './config/koneksi-db.php';
 include './config/konfigurasi-umum.php';
 
 if (!isset($_SESSION['id_admin'])) {
-    // Jika belum login, arahkan ke halaman login
-    header("Location: login.php");
-    exit();
+	// Jika belum login, arahkan ke halaman login
+	header("Location: login.php");
+	exit();
 }
 ?>
 
@@ -56,6 +56,9 @@ if (!isset($_SESSION['id_admin'])) {
 	</div>
 
 	<script src="./assets/js/app.js"></script>
+	<script>
+		// console.log('hello');
+	</script>
 </body>
 
 </html>
